@@ -103,7 +103,7 @@ const [label, setLabel] = useState([]);
         </div>
       </div>
       <div className="container"  style={{width: "80%", marginLeft:"10%"}}>
-      <div>
+      <div className="container1">
       <LineGraph
         yAxis={coronaCountAr}
         label={label}
