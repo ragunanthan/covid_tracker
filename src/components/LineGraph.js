@@ -5,7 +5,7 @@ import { Line} from  'react-chartjs-2';
 const LineGraph = (props) => {
  
     return (
-      <div style={{width:"80%", margin: "50px 0px 0px 80px"
+      <div style={{width:"80%", height:"400px", margin: "50px 0px 0px 80px"
       }}>
         <Line
           data={{
