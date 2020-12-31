@@ -104,8 +104,7 @@ const [label, setLabel] = useState([]);
           </select>
         </div>
       </div>
-      <div style={{backgroundColor:"white",
-                    width: "60%", marginLeft:"300px",height:"350px", marginBottom:"40px", borderRadius:"15px", boxShadow:"0px 0px 40px 1px black"}}>
+      <div style={{width: "80%", marginLeft:"10%"}}>
       <LineGraph
         yAxis={coronaCountAr}
         label={label}
