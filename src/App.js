@@ -66,7 +66,9 @@ const [label, setLabel] = useState([]);
 
 
   return (
-    <div className="App">
+    <div style={{ textAlign: "center",
+      backgroundColor: "lightgrey",
+      height: "700px"}}>
       <div>
         <div style={{
           backgroundColor: 'black',
