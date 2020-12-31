@@ -1,6 +1,7 @@
 import React,{ useEffect, useState } from 'react';
 import LineGraph from './components/LineGraph';
 import axios from './axios';
+import './App.css';
 
 function App() {
 
@@ -101,11 +102,13 @@ const [label, setLabel] = useState([]);
           </select>
         </div>
       </div>
-      <div style={{width: "80%", marginLeft:"10%"}}>
+      <div className="container"  style={{width: "80%", marginLeft:"10%"}}>
+      <div>
       <LineGraph
         yAxis={coronaCountAr}
         label={label}
       />
+      </div>
       </div>
     </div>
   );
